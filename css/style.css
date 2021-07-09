@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+:root {
+  --yasil: #a1c927;
+  --qirmizi: #fd634d;
+}
+header {
+	position: relative;
+	height: 100vh;
+	background: url('../img/headerbg.jpg') center/cover;
+	text-align: center;
+}
+header div, header nav {
+	position: absolute;
+}
+header nav {
+	right: 50%;
+	top: 40px;
+	transform: translate(50%, 0);
+}
+header div {
+	bottom: 20vh;
+	right: 50%;
+	transform: translate(50%, 0);
+	width: 100%;
+}
+#menu a {
+	font: .8em Poppins, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+h1 {
+	font: 2em Poppins, sans-serif;
+	color: #fff;
+}
+h6 {
+	font: bold 1em 'Open Sans', sans-serif;
+	color: #fff;
+}
+#articles {
+	padding: 20px 0;
+}
+#articles article {
+	padding: 10px;
+}
+#articles i { font-size: 42px; }
+h2 {
+	font: 1.5em 'Open Sans', sans-serif;
+	padding: 20px 0;
+	text-align: left;
+}
+#p1, #p3 {
+	font: .8em 'Open Sans', sans-serif;
+	padding: 0 0 26px 0;
+}
+#p2, #p4 {
+	font: .8em 'Open Sans', sans-serif;
+	padding: 0 0 43px 0;
+}
+#articles a {
+	font: .8em 'Open Sans', sans-serif;
+}
+#fitness1 { background: url('../img/fitness1.jpg') center/cover; }
+#fitness2 { 
+	background: url('../img/fitness2.jpg') center/cover;
+	padding: 250px 0 0 48px;
+	font: .7em 'Open Sans', sans-serif;
+	color: #fff;
+}
+#i2 {
+	font-size: 20px;
+	padding: 0 0 0 10px;
+	color: #fd634d; 
+}
+h5 {
+	font:.9em 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+h3 {
+	font: 2.2em 'Open Sans', sans-serif;
+	text-align: center;
+}
+#i1 {
+	padding:0 0 0 155px;
+	color:#e3e9e9;
+}
+#p5 {
+	font:.9em 'Open Sans', sans-serif;
+	color: #656e74;
+	text-align: center;
+	padding: 15px 35px 0 35px;
+}
+.link1 {
+	display: block;
+	font: .8em 'Open Sans', sans-serif;
+	padding: 10px 0 0 130px;
+}
+.link2 {
+	display: block;
+	font: .8em 'Open Sans', sans-serif;
+	padding: 10px 0 0 130px;
+}
+#fitness3 { background: url('../img/fitness3.jpg') center/cover }
+#p6 {
+	font:.9em 'Open Sans', sans-serif;
+	color: #656e74;
+	text-align: center;
+	padding: 25px 35px;
+}
+#i3 { 
+	font-size: 32px;
+	color:#e3e9e9;
+	padding: 10px 0 0 150px; 
+}
+#fitness4 { 
+	background: url('../img/fitness4.jpg') center/cover;
+	font: .8em 'Open Sans', sans-serif;
+	padding: 40px 0 0 30px;
+}
+#span {
+	float: right;
+	padding: 0 30px 0 0;
+}
+#h3 {
+	font: 2em 'Open Sans', sans-serif;
+	padding: 40px 0;
+}
+#p7 {
+	font:.9em 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 0 30px;
+}
+#fitness5 { background: url('../img/fitness5.jpg') center/cover }
+#h4 {
+	font: .9em 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+#h1 {
+	font: 1.3em 'Open Sans', sans-serif;
+	text-align: center;
+}
+#i4 {
+	font-size: 35px;
+	color: gray;
+	padding: 15px 0 15px 150px;
+}
+#p8 {
+	color: #656e74;
+	padding: 0 20px;
+	text-align: center;
+}
+#fitness6 { background: url('../img/fitness6.jpg') center/cover }
+#hh4 {
+	font: 1em 'Open Sans', sans-serif;
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+#hh1 {
+	font: 2.1em 'Open Sans', sans-serif;
+	text-align: center;
+}
+#i5 {
+	font-size: 35px;
+	padding: 20px 0 20px 140px;
+}
+#p9 {
+	font: .8em 'Open Sans', sans-serif;
+	padding: 0 30px;
+	text-align: center;
+}
+#footerph {
+	background: url('../img/footer.jpg') center/cover;
+}
+#h11 {
+	font: 1.2em 'Open Sans', sans-serif;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+#p10 {
+	font: .7em 'Open Sans', sans-serif;
+	padding: 10px 15px 0 15px;
+	text-align: center;
+}
+#divv {
+	background: black;
+}
+.headers {
+	font: 1.3em 'Open Sans', sans-serif;
+	color: #FFF;
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+.paraghs {
+	font: .8em 'Open Sans', sans-serif;
+	color: #8297a7;
+	padding: 10px 15px 0 15px;
+	text-align: center;
+}
+#prg {
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+#i6 {
+	font-size: 50px;
+	color: #2e3092;
+	padding: 0 10px 0 0;
+}
+#i7 {
+	font-size: 50px;
+	color: #00adef;
+	padding: 0 10px 0 0;
+}
+#i8 {
+	font-size: 50px;
+	color: #ed3123;
+	padding: 0 10px 0 0;
+}
+#i9 {
+	font-size: 50px;
+	color: #16198f;
+}
+form {
+	padding: 15px 0 0 5px;
+	text-align: center;
+}
+.parags {
+	padding: 3px 0;
+}
+#input1 {
+	width: 130px;
+	height: 25px;
+	border-radius: 2px;
+	text-align: center;
+}
+#input2 {
+	width: 180px;
+	height: 25px;
+	border-radius: 2px;
+	text-align: center;
+}
+#input3 {
+	width: 130px;
+	height: 25px;
+	color: #FFF;
+	background: #a1c927;
+	border-radius: 2px;
+	border: none;
+}
+.h-50 { height: 50vh; }
+.bg-yasil { background: var(--yasil) }
+.bg-qirmizi { background: var(--qirmizi) }
+.bg-ag { background: #FFF }
+.txt-yasil { color: var(--yasil) }
+.txt-qirmizi { color: var(--qirmizi) }
+.txt-ag { color: #FFF }
+.foot { height: 90vh; }
+
+@media only screen and (min-width: 768px) {
+	header nav {
+		width: 100%;
+		padding: 0 50px;
+	}
+	#logo { float: left; }
+	#menu { float: right; }
+	#menu li { display: inline-block; padding: 20px; }
+	h1 { font-size: 2.5em }
+	h6 { text-align: right; padding: 0 60px 0 0; }
+	header div {
+		width: inherit;
+		right: inherit;
+		transform: none;
+		left: 120px;
+	}
+	.container { max-width: 1180px; margin: auto; }
+	#articles {
+		padding: 100px 0;
+	}
+	#articles article {
+		width: 25%;
+		float: left;
+	}
+	#dv1 { padding: 35px 0; }
+	#dv2 { padding: 35px 0; }
+	.link1 { padding: 15px 0 0 170px; }
+	.link2 { padding: 15px 0 0 170px; }
+	#i1 { padding: 0 0 0 200px; }
+	#h5 { 
+		text-align: left;
+		padding: 40px 0 0 32px;
+	}
+	#hh3 {
+		text-align: left;
+		padding: 0 0 0 30px;
+	}
+	#i3 {
+		padding: 0 0 0 330px;
+	}
+	#p6 {
+		text-align: left;
+	}
+	#fitness4 { 
+		font: .8em 'Open Sans', sans-serif;
+		padding: 60px 0 0 60px;
+	}
+	#span {
+		float: right;
+		padding: 0 50px 0 0;
+	}
+	#h3 { text-align: left; padding: 50px 0 0 40px; }
+	#p7 { text-align: left; padding: 40px 40px 0 40px; }
+	#shadow { box-shadow: -5px 2px 50px #888; }
+	#h4 {
+		padding: 40px 0 0 40px;
+		text-align: left;
+	}
+	#h1 {
+		font-size: 2.1em;
+		padding: 0 0 0 38px;
+		text-align: left;
+	}
+	#i4 {
+		padding: 0 0 0 680px;
+	}
+	#p8 {
+		padding: 0 75px 0 40px;
+		text-align: left;
+		font: .8em 'Open Sans', sans-serif;
+		color: #656e74;
+	}
+	#hh4 {
+		padding: 43px 0 0 40px;
+		text-align: left;
+	}
+	#hh1 {
+		padding: 0 0 0 38px;
+		text-align: left;
+	}
+	#i5 {
+		font-size: 35px;
+		padding: 0 0 0 320px;
+	}
+	#p9 {
+		padding: 0 60px 0 40px;
+		text-align: left;
+	}
+	#h11 {
+		font: 2.8em 'Open Sans', sans-serif;
+		padding: 130px 0 0 0;
+		text-align: center;
+	}
+	#p10 {
+		font: 1em 'Open Sans', sans-serif;
+		padding: 30px 100px 0 100px;
+		text-align: center;
+	}
+	#divv {
+		height: 50vh;
+	}
+	.headers {
+		font: .8em 'Open Sans', sans-serif;
+		padding: 35px 0 0 0;
+		text-align: left;
+	}
+	.paraghs {
+		font: .6em 'Open Sans', sans-serif;
+		padding: 15px 90px 0 0;
+		text-align: left;
+	}
+	#prg {
+		padding: 10px 0 0 0;
+		text-align: left;
+	}
+	#i6 {
+		font-size: 50px;
+		color: #2e3092;
+		padding: 0 10px 0 0;
+	}
+	#i7 {
+		font-size: 50px;
+		color: #00adef;
+		padding: 0 10px 0 0;
+	}
+	#i8 {
+		font-size: 50px;
+		color: #ed3123;
+		padding: 0 10px 0 0;
+	}
+	#i9 {
+		font-size: 50px;
+		color: #16198f;
+	}
+	form {
+		padding: 0 0 0 350px;
+	}
+	#p11 {
+		padding: 40px 0 0 40px;
+	}
+	#p12 {
+		padding: 40px 0 0 10px;
+	}
+	#p13 {
+		padding: 40px 0 0 10px;
+	}
+	#input1 {
+		width: 170px;
+		height: 30px;
+		border-radius: 2px;
+		border: none;
+		padding: 0 0 0 20px;
+		text-align: left;
+	}
+	#input2 {
+		width: 310px;
+		height: 30px;
+		border-radius: 2px;
+		border: none;
+		padding: 0 0 0 20px;
+		text-align: left;
+	}
+	#input3 {
+		width: 150px;
+		height: 29px;
+		color: #FFF;
+		background: #a1c927;
+		border-radius: 2px;
+		border: none;
+	}
+	.row { overflow: auto; }
+	.w-1 { width: 34%; }
+	.w-2 { width: 66%; }
+	.left { float: left; }
+	.right { float: right; }
+	.en { width: 33%; }
+}
